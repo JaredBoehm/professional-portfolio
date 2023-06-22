@@ -7,7 +7,9 @@
     <title>Professional Portfolio | Jared Boehm</title>
 </head>
 <body>
+
     <header>
+        <!-- Top Nav -->
         <nav>
             <h1></h1>
             <ul>
@@ -23,8 +25,12 @@
             </ul>
         </nav>
     </header>
+
     <main>
+
+        <!-- About Me -->
         <section id="about-me">
+            <!-- divs are for layout purposes -->
             <div>
                 <img src="./assets/img/jaredboehm-min_dark.jpg" alt="Picture of Jared Boehm">
             </div>
@@ -34,25 +40,49 @@
                 <p>An aspiring fullstack developer and web development enthusiast.</p>
             </div>
         </section>
+
+        <!-- My Work -->
         <section id="my-work">
+            <!-- divs are for layout purposes -->
             <div>
                 <h2>My Work</h2>
             </div>
-            <div class="project-card-wrapper">
-                <a href="#test1" class="project-card project-card-main">
-                    <div></div>
+            <div class="project-cards-wrapper">
+                <a href="https://jaredboehm.github.io/prework-study-guide/" target="_blank" class="project-card project-card-main">
+                    <div class="project-card-info">
+                        <h4 title="Project Title">Prework Study Guide</h4>
+                        <div>
+                            <span class="technology-pill" title="Technology Pill">HTML</span>
+                            <span class="technology-pill" title="Technology Pill">CSS</span>
+                            <span class="technology-pill" title="Technology Pill">Javascript</span>
+                        </div>
+                    </div>
                 </a>
-                <a href="#test2" class="project-card">
-
+                <a href="https://jaredboehm.github.io/01-code-refactor/" target="_blank" class="project-card">
+                    <div class="project-card-info">
+                        <h4 title="Project Title">Code Refactor</h4>
+                        <div>
+                            <span class="technology-pill" title="Technology Pill">HTML</span>
+                            <span class="technology-pill" title="Technology Pill">CSS</span>
+                        </div>
+                    </div>
                 </a>
-                <a href="#test3" class="project-card">
-
+                <a href="https://jaredboehm.com/" target="_blank" class="project-card">
+                    <div class="project-card-info">
+                        <h4 title="Project Title">Personal Website</h4>
+                        <div>
+                            <span class="technology-pill" title="Technology Pill">HTML</span>
+                            <span class="technology-pill" title="Technology Pill">CSS</span>
+                        </div>
+                    </div>
                 </a>
             </div>
         </section>
+
+        <!-- Contact Me -->
         <section id="contact-me">
             <h3>Contact Me</h3>
-            <!-- SVG Codes for social icons are from here: https://codepen.io/ruandre/pen/MWXxem -->
+            <!-- SVG Codes for social icons are from here: https://codepen.io/ruandre/pen/MWXxem , most of the styling is in the css, which is all custom -->
             <ul>
                 <li>
                     <a href="mailto:me@jaredboehm.com" target="_blank"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg></a>
@@ -62,9 +92,13 @@
                 </li>
             </ul>
         </section>
+
     </main>
+
     <footer>
-        <p>© Jared Boehm, 2023</p>
+        <!-- Legal -->
+        <p>© Nobody, 2023</p>
     </footer>
+
 </body>
 </html>
