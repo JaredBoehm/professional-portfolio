@@ -233,7 +233,7 @@ footer { /* NOTE: footer has no background color, so it will be --dark, as that 
     #my-work h2 { /* This is a fix for the nav overlapping the my work title on smaller screens */
         margin-top: 4rem;
     }
-    .project-card-wrapper { /* Gives the project cards a little more of the screen space to grow */
+    .project-cards-wrapper { /* Gives the project cards a little more of the screen space to grow */
         width: 80%;
     }
     .project-card { /* All project cards now take up 100% of the project-card-wrapper, this will wrap each one to their own line */
