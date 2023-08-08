@@ -154,6 +154,7 @@ main section {
 
 .project-card-main { /* Main project card will always be on its own line */
     background-image: url(../img/dndquick.PNG);
+    background-position: center;
     width: 100%;
 }
 
