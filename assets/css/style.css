@@ -185,6 +185,10 @@ main section {
     padding: 0.25rem;
 }
 
+.project-card-propplanner {
+    background-image: url(../img/propplanner.jpg);
+}
+
 /*------------------ Contact Me Section -----------------*/
 
 #contact-me {
